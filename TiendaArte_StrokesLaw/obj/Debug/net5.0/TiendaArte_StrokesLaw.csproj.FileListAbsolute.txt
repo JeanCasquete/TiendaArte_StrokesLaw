@@ -1,0 +1,16 @@
+C:\Users\RobertoAlejandro\Source\Repos\TiendaArte_StrokesLaw\TiendaArte_StrokesLaw\bin\Debug\net5.0\TiendaArte_StrokesLaw.exe
+C:\Users\RobertoAlejandro\Source\Repos\TiendaArte_StrokesLaw\TiendaArte_StrokesLaw\bin\Debug\net5.0\TiendaArte_StrokesLaw.deps.json
+C:\Users\RobertoAlejandro\Source\Repos\TiendaArte_StrokesLaw\TiendaArte_StrokesLaw\bin\Debug\net5.0\TiendaArte_StrokesLaw.runtimeconfig.json
+C:\Users\RobertoAlejandro\Source\Repos\TiendaArte_StrokesLaw\TiendaArte_StrokesLaw\bin\Debug\net5.0\TiendaArte_StrokesLaw.runtimeconfig.dev.json
+C:\Users\RobertoAlejandro\Source\Repos\TiendaArte_StrokesLaw\TiendaArte_StrokesLaw\bin\Debug\net5.0\TiendaArte_StrokesLaw.dll
+C:\Users\RobertoAlejandro\Source\Repos\TiendaArte_StrokesLaw\TiendaArte_StrokesLaw\bin\Debug\net5.0\ref\TiendaArte_StrokesLaw.dll
+C:\Users\RobertoAlejandro\Source\Repos\TiendaArte_StrokesLaw\TiendaArte_StrokesLaw\bin\Debug\net5.0\TiendaArte_StrokesLaw.pdb
+C:\Users\RobertoAlejandro\Source\Repos\TiendaArte_StrokesLaw\TiendaArte_StrokesLaw\obj\Debug\net5.0\TiendaArte_StrokesLaw.csproj.AssemblyReference.cache
+C:\Users\RobertoAlejandro\Source\Repos\TiendaArte_StrokesLaw\TiendaArte_StrokesLaw\obj\Debug\net5.0\TiendaArte_StrokesLaw.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RobertoAlejandro\Source\Repos\TiendaArte_StrokesLaw\TiendaArte_StrokesLaw\obj\Debug\net5.0\TiendaArte_StrokesLaw.AssemblyInfoInputs.cache
+C:\Users\RobertoAlejandro\Source\Repos\TiendaArte_StrokesLaw\TiendaArte_StrokesLaw\obj\Debug\net5.0\TiendaArte_StrokesLaw.AssemblyInfo.cs
+C:\Users\RobertoAlejandro\Source\Repos\TiendaArte_StrokesLaw\TiendaArte_StrokesLaw\obj\Debug\net5.0\TiendaArte_StrokesLaw.csproj.CoreCompileInputs.cache
+C:\Users\RobertoAlejandro\Source\Repos\TiendaArte_StrokesLaw\TiendaArte_StrokesLaw\obj\Debug\net5.0\TiendaArte_StrokesLaw.dll
+C:\Users\RobertoAlejandro\Source\Repos\TiendaArte_StrokesLaw\TiendaArte_StrokesLaw\obj\Debug\net5.0\ref\TiendaArte_StrokesLaw.dll
+C:\Users\RobertoAlejandro\Source\Repos\TiendaArte_StrokesLaw\TiendaArte_StrokesLaw\obj\Debug\net5.0\TiendaArte_StrokesLaw.pdb
+C:\Users\RobertoAlejandro\Source\Repos\TiendaArte_StrokesLaw\TiendaArte_StrokesLaw\obj\Debug\net5.0\TiendaArte_StrokesLaw.genruntimeconfig.cache

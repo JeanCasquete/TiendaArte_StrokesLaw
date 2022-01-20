@@ -4,6 +4,7 @@ using System.Text;
 
 namespace TiendaArte_StrokesLaw
 {
+    //Clase tarjeta de crédito y caracteristicas, hereda de pago.
     class TarjetaCredito : Pago, IMetodos
     {
         public string numtarjeta { get; set; }
@@ -28,7 +29,7 @@ namespace TiendaArte_StrokesLaw
             fechatarjeta = Console.ReadLine();
             Console.Clear();
         }
-
+        //Metodo polimorfico mostrar datos 
         public override void Mostrar()
         {
             Console.WriteLine("**** ESTAS SON TUS TAREJTAS ****");

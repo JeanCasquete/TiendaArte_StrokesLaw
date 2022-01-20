@@ -4,7 +4,8 @@ using System.Text;
 
 namespace TiendaArte_StrokesLaw
 {
-    class Articulo
+    //Clase padre articulo y caracteristicas
+    class Articulo : IMetodos
     {
         public string nombre { get; set; }
         public string id { get; set; }
@@ -13,7 +14,7 @@ namespace TiendaArte_StrokesLaw
         public double stock { get; set; }
         public double precio { get; set; }
 
-       
+        //Metodo polimorfico mostrar datos 
         public virtual void Mostrar()
         {
             Console.WriteLine("\nArtículo: " + nombre +" id: #"+id+"\nCategoría: "+categoria+"\nDescripción: " + descripcion+ "\nDisponibilidad: " +stock + "\nPrecio: $" +precio);

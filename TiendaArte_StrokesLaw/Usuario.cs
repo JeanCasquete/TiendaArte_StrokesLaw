@@ -4,6 +4,7 @@ using System.Text;
 
 namespace TiendaArte_StrokesLaw
 {
+    //Clase padre usuario y caracteristicas.
     class Usuario : IMetodos
     {
         public string nombre { get; set; }
@@ -12,6 +13,7 @@ namespace TiendaArte_StrokesLaw
         public string email { get; set; }
         public int edad { get; set; }
 
+        //Metodo polimorfico mostrar datos 
         public virtual void Mostrar()
         {
             Console.WriteLine("Nombre completo: "+nombre+"\nUsername: "+username+"\nCorreo Electrónico: "+email+"\nContraseña: **********" +"\nEdad: "+edad);
