@@ -83,6 +83,7 @@ namespace TiendaArte_StrokesLaw
             }
             else
             {
+                
                 Console.WriteLine("\n**** INICIAR SESIÓN ****");
                 Console.WriteLine("\n--> Usuario");
                 login1.username = Console.ReadLine();
@@ -90,6 +91,7 @@ namespace TiendaArte_StrokesLaw
                 login1.contraseña = Console.ReadLine();
                 do
                 {
+                    
                     Console.Clear();
                     Console.WriteLine("\nBienvenid@ " + login1.username+ ". Tenemos todas las piezas de arte que deseas y seueñas.");
                     Console.WriteLine(" 1. Catálogo de artículos");
@@ -100,6 +102,7 @@ namespace TiendaArte_StrokesLaw
                     Console.Clear();
                     switch (opcion)
                     {
+                        
                         case 1:
                           
                             do
@@ -121,6 +124,7 @@ namespace TiendaArte_StrokesLaw
                                 articulo2.precio = 49.99;
                                 articulo2.stock = 10;
                                 articulo2.Mostrar();
+
                                 Console.WriteLine("\n**** COMPRAR ****");
                                 Console.WriteLine("\nPara comprar el artículo");
                                 Console.WriteLine("Presiona 1 para el primer producto");
@@ -130,6 +134,7 @@ namespace TiendaArte_StrokesLaw
                                 Console.Clear();
                                 switch (opcion1)
                                 {
+                                   
                                     case 1:
                                         Console.WriteLine("\n**** CARRITO ****");
                                         Console.WriteLine("\nProducto 1 ha sido añadido al carrito");
@@ -137,6 +142,7 @@ namespace TiendaArte_StrokesLaw
                                         carrito.descripcion = articulo1.descripcion;
                                         carrito.precio = articulo1.precio;                                        
                                         carrito.Mostrar();
+
                                         Console.WriteLine("\n**** PEDIDO ****");
                                         Console.WriteLine("\nSu pedido ha sido realizado");
                                         pedido.numeropedido = "5584";
@@ -146,12 +152,14 @@ namespace TiendaArte_StrokesLaw
                                         Console.ReadKey();
                                         break;
                                     case 2:
+
                                         Console.WriteLine("\n**** CARRITO ****");
                                         Console.WriteLine("\nProducto 2 ha sido añadido al carrito");
                                         carrito.nombre = articulo2.nombre;
                                         carrito.descripcion = articulo2.descripcion;
                                         carrito.precio = articulo2.precio;
                                         carrito.Mostrar();
+                                        
                                         Console.WriteLine("\n**** PEDIDO ****");
                                         Console.WriteLine("\nSu pedido ha sido realizado");
                                         pedido.numeropedido = "5584";
@@ -168,6 +176,7 @@ namespace TiendaArte_StrokesLaw
                             } while (opcion1 != 3);
                             break;
                         case 2:
+
                             Console.WriteLine("\n**** PERFIL ****");
                             login1.nombre = user1.nombre;
                             login1.edad = user1.edad;
@@ -177,6 +186,7 @@ namespace TiendaArte_StrokesLaw
                             Console.WriteLine("\n****Presiona una tecla para regresar****");
                             break;                        
                         case 3:
+
                             do
                             {                                
                                 Console.WriteLine("\n**** OPCIONES DE GESTIÓN ****");
@@ -187,7 +197,8 @@ namespace TiendaArte_StrokesLaw
                                 Console.Clear();
                                 switch (opcion2)
                                 {
-                                    case 1:                                        
+                                    case 1:      
+                                        
                                         do
                                         {                                           
                                             Console.WriteLine("\n**** GESTIONAR METODOS DE PAGO ****");
@@ -215,6 +226,7 @@ namespace TiendaArte_StrokesLaw
 
                                         break;
                                     case 2:
+
                                         Console.Clear();
                                         Console.WriteLine("\n Aquí encontraras tus notifaciones ");
                                         Console.WriteLine("  Estas son tus notificaciones: ");
