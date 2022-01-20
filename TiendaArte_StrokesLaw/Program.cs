@@ -134,7 +134,7 @@ namespace TiendaArte_StrokesLaw
                                 Console.Clear();
                                 switch (opcion1)
                                 {
-                                   
+                     ////Carrito de compras con detalles del producto 1.              
                                     case 1:
                                         Console.WriteLine("\n**** CARRITO ****");
                                         Console.WriteLine("\nProducto 1 ha sido añadido al carrito");
@@ -142,7 +142,7 @@ namespace TiendaArte_StrokesLaw
                                         carrito.descripcion = articulo1.descripcion;
                                         carrito.precio = articulo1.precio;                                        
                                         carrito.Mostrar();
-
+                    //Apartado de pedidos, detalle de pedido y confirmación de pedido.
                                         Console.WriteLine("\n**** PEDIDO ****");
                                         Console.WriteLine("\nSu pedido ha sido realizado");
                                         pedido.numeropedido = "5584";
@@ -152,14 +152,14 @@ namespace TiendaArte_StrokesLaw
                                         Console.ReadKey();
                                         break;
                                     case 2:
-
+                    //Carrito de compras con detalles del producto 2
                                         Console.WriteLine("\n**** CARRITO ****");
                                         Console.WriteLine("\nProducto 2 ha sido añadido al carrito");
                                         carrito.nombre = articulo2.nombre;
                                         carrito.descripcion = articulo2.descripcion;
                                         carrito.precio = articulo2.precio;
                                         carrito.Mostrar();
-                                        
+                    //Apartado de pedidos, detalle de pedido y confirmación de pedido.             
                                         Console.WriteLine("\n**** PEDIDO ****");
                                         Console.WriteLine("\nSu pedido ha sido realizado");
                                         pedido.numeropedido = "5584";
