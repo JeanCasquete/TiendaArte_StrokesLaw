@@ -24,10 +24,13 @@ namespace TiendaArte_StrokesLaw
             do
             {
                 //Pequeño menú inicial donde elegir registrarse si el usuario es nuevo o iniciar sesion si ya tiene cuenta.
-                Console.WriteLine("BIENVENIDO A Law Art Shop :");
-                Console.WriteLine("  1. Registrarse");
-                Console.WriteLine("  2. Iniciar Sesión");
-                Console.WriteLine("Ingresa 1 para registrarte, o 2 para iniciar sesion");
+                Console.WriteLine("\nBIENVENIDO A Law Art Shop :");
+                Console.WriteLine("\n****************************");
+                Console.WriteLine(" 1. Registrarse");
+                Console.WriteLine(" 2. Iniciar Sesión");
+                Console.WriteLine("****************************");
+                Console.WriteLine("\nIngresa 1 para registrarte.");
+                Console.WriteLine("Ingresa 2 para iniciar sesión.");
                 opcion = int.Parse(Console.ReadLine());
                 Console.Clear();
                 //Con un switch y los casos realizamos el registro o el login.
@@ -35,7 +38,7 @@ namespace TiendaArte_StrokesLaw
                 {
                     //En el primer caso al ingresar el 1 se procede a crear la cuenta.
                     case 1:
-                        Console.WriteLine("**** Creación de una nueva Cuenta ****");
+                        Console.WriteLine("\n**** Creación de una nueva Cuenta ****");
                         Console.WriteLine("\nIngresa tu Nombre y apellido:");
                         user1.nombre = Console.ReadLine();
                         Console.WriteLine("\nIngresa tu edad:");
@@ -56,7 +59,7 @@ namespace TiendaArte_StrokesLaw
                         else
                         {
                             Console.Clear();
-                            Console.WriteLine("Tienes que ser mayor de 15 años para crear una cuenta");
+                            Console.WriteLine("Tienes que ser mayor de 15 años para crear una cuenta.");
                             Console.WriteLine("Presiona 1 para salir");
                             neg1 = int.Parse(Console.ReadLine());
                         }                                             
@@ -75,25 +78,24 @@ namespace TiendaArte_StrokesLaw
                 Console.Clear();
             } while (!((opcion == 1) || (opcion == 2)));     
             if (neg1 == 1)
-            {
-                Console.WriteLine(" Hasta Pronto SE CAMBIAAAAA");
-                Console.WriteLine("Te esperamos cuando tengas edad suficiente :D");
+            {               
+                Console.WriteLine("Hasta luego, necesitas ser mayor de 15 años.");
             }
             else
             {
-                Console.WriteLine("**** INICIAR SESIÓN ****");
-                Console.WriteLine("\n> Usuario");
+                Console.WriteLine("\n**** INICIAR SESIÓN ****");
+                Console.WriteLine("\n--> Usuario");
                 login1.username = Console.ReadLine();
-                Console.WriteLine("\n> Contraseña");
+                Console.WriteLine("\n--> Contraseña");
                 login1.contraseña = Console.ReadLine();
                 do
                 {
                     Console.Clear();
-                    Console.WriteLine("Bienvenid@ " +login1.username+ ". Tenemos todas las piezas de arte que deseas y seueñas.");
-                    Console.WriteLine("  1. Catálogo de artículos");
-                    Console.WriteLine("  2. Perfil");
-                    Console.WriteLine("  3. Opciones de gestión");
-                    Console.WriteLine("  4. Salir");                    
+                    Console.WriteLine("\nBienvenid@ " + login1.username+ ". Tenemos todas las piezas de arte que deseas y seueñas.");
+                    Console.WriteLine(" 1. Catálogo de artículos");
+                    Console.WriteLine(" 2. Perfil");
+                    Console.WriteLine(" 3. Opciones de gestión");
+                    Console.WriteLine(" 4. Salir");                    
                     opcion = int.Parse(Console.ReadLine());
                     Console.Clear();
                     switch (opcion)
@@ -102,7 +104,7 @@ namespace TiendaArte_StrokesLaw
                           
                             do
                             {
-                                Console.WriteLine("**** CATÁLOGO DE ARTICULOS ****");
+                                Console.WriteLine("\n**** CATÁLOGO DE ARTICULOS ****");
                                 Console.WriteLine("\n**** Prodcuto 1 ****");
                                 articulo1.nombre = "Poster de The Batman 2022";
                                 articulo1.id = "P224";
@@ -119,7 +121,8 @@ namespace TiendaArte_StrokesLaw
                                 articulo2.precio = 49.99;
                                 articulo2.stock = 10;
                                 articulo2.Mostrar();
-                                Console.WriteLine("\n\nPara comprar el artículo");
+                                Console.WriteLine("\n**** COMPRAR ****");
+                                Console.WriteLine("\nPara comprar el artículo");
                                 Console.WriteLine("Presiona 1 para el primer producto");
                                 Console.WriteLine("Presiona 2 para el segundo producto.");
                                 Console.WriteLine("\n****Presiona 3 para regresar****");
@@ -213,7 +216,7 @@ namespace TiendaArte_StrokesLaw
                                         break;
                                     case 2:
                                         Console.Clear();
-                                        Console.WriteLine(" Aquí encontraras tus notifaciones ");
+                                        Console.WriteLine("\n Aquí encontraras tus notifaciones ");
                                         Console.WriteLine("  Estas son tus notificaciones: ");
                                         Console.WriteLine("    **TU PEDIDO HA SIDO ENVIADO **");
                                         break;
