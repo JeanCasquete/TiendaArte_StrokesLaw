@@ -176,7 +176,7 @@ namespace TiendaArte_StrokesLaw
                             } while (opcion1 != 3);
                             break;
                         case 2:
-
+                    //Opción 2 apartado de perfil, visualizacion de la informacion del usuario.
                             Console.WriteLine("\n**** PERFIL ****");
                             login1.nombre = user1.nombre;
                             login1.edad = user1.edad;
@@ -186,7 +186,7 @@ namespace TiendaArte_StrokesLaw
                             Console.WriteLine("\n****Presiona una tecla para regresar****");
                             break;                        
                         case 3:
-
+                    //Opción 3 apartado de opciones de gestión.
                             do
                             {                                
                                 Console.WriteLine("\n**** OPCIONES DE GESTIÓN ****");
@@ -198,7 +198,7 @@ namespace TiendaArte_StrokesLaw
                                 switch (opcion2)
                                 {
                                     case 1:      
-                                        
+                    //Gestion de los metodos de pago, visualizacion de metodos de pago.       
                                         do
                                         {                                           
                                             Console.WriteLine("\n**** GESTIONAR METODOS DE PAGO ****");
@@ -226,7 +226,7 @@ namespace TiendaArte_StrokesLaw
 
                                         break;
                                     case 2:
-
+                        //Apartado de notificaciones sobre estado de pedidos.
                                         Console.Clear();
                                         Console.WriteLine("\n Aquí encontraras tus notifaciones ");
                                         Console.WriteLine("  Estas son tus notificaciones: ");
