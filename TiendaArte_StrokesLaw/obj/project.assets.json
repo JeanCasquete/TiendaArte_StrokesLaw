@@ -8,24 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\YinRo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\RobertoAlejandro\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\YinRo\\source\\repos\\TiendaArte_Strokes_Law\\TiendaArte_StrokesLaw\\TiendaArte_StrokesLaw.csproj",
+      "projectUniqueName": "C:\\Users\\RobertoAlejandro\\Source\\Repos\\TiendaArte_StrokesLaw\\TiendaArte_StrokesLaw\\TiendaArte_StrokesLaw.csproj",
       "projectName": "TiendaArte_StrokesLaw",
-      "projectPath": "C:\\Users\\YinRo\\source\\repos\\TiendaArte_Strokes_Law\\TiendaArte_StrokesLaw\\TiendaArte_StrokesLaw.csproj",
-      "packagesPath": "C:\\Users\\YinRo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\YinRo\\source\\repos\\TiendaArte_Strokes_Law\\TiendaArte_StrokesLaw\\obj\\",
+      "projectPath": "C:\\Users\\RobertoAlejandro\\Source\\Repos\\TiendaArte_StrokesLaw\\TiendaArte_StrokesLaw\\TiendaArte_StrokesLaw.csproj",
+      "packagesPath": "C:\\Users\\RobertoAlejandro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\RobertoAlejandro\\Source\\Repos\\TiendaArte_StrokesLaw\\TiendaArte_StrokesLaw\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\YinRo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\RobertoAlejandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
