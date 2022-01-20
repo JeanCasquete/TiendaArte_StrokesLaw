@@ -10,7 +10,7 @@ namespace TiendaArte_StrokesLaw
         public string numtarjeta { get; set; }
         public double cvv { get; set; }
         public string fechatarjeta { get; set; }
-
+//Metodo para agregar una tarjeta de credito o debito para las compras del carrito
         public void agregartarjeta()
         {
             Console.WriteLine("\n**** AGREGA UNA TARJETA DE CREDITO/DEBITO ****");
@@ -19,6 +19,7 @@ namespace TiendaArte_StrokesLaw
             numtarjeta = Console.ReadLine();
             Console.WriteLine("\nIngresa el codigo cvv de la tarjeta:");
             cvv = double.Parse(Console.ReadLine());
+            //while para una validacion de datos, solo pueden agregar 3 digitos al cvv
             while (cvv <= 99 && cvv >= 300)
             {
                 Console.WriteLine("\n El codigo cvv debe contener 3 digitos"
