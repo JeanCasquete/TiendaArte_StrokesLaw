@@ -83,7 +83,7 @@ namespace TiendaArte_StrokesLaw
             }
             else
             {
-                
+                //Apartado de inicio de sesión, con username y contraseña.
                 Console.WriteLine("\n**** INICIAR SESIÓN ****");
                 Console.WriteLine("\n--> Usuario");
                 login1.username = Console.ReadLine();
@@ -91,7 +91,7 @@ namespace TiendaArte_StrokesLaw
                 login1.contraseña = Console.ReadLine();
                 do
                 {
-                    
+                    //Menú principal de la aplicación, con diferentes opciones y funciones.
                     Console.Clear();
                     Console.WriteLine("\nBienvenid@ " + login1.username+ ". Tenemos todas las piezas de arte que deseas y seueñas.");
                     Console.WriteLine(" 1. Catálogo de artículos");
@@ -102,7 +102,7 @@ namespace TiendaArte_StrokesLaw
                     Console.Clear();
                     switch (opcion)
                     {
-                        
+                        //Opción 1 Catálogo de artículos con productos disponibles.
                         case 1:
                           
                             do
@@ -124,7 +124,7 @@ namespace TiendaArte_StrokesLaw
                                 articulo2.precio = 49.99;
                                 articulo2.stock = 10;
                                 articulo2.Mostrar();
-
+                      //Pequeño menú de compra de productos.
                                 Console.WriteLine("\n**** COMPRAR ****");
                                 Console.WriteLine("\nPara comprar el artículo");
                                 Console.WriteLine("Presiona 1 para el primer producto");
